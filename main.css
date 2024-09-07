@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+.img-nav1 {
+    width: 60px;
+}
+
+.nav-a1 {
+    color: #fff;
+}
+
+.ul-1 {
+    display: flex;
+    gap: 65px;
+}
+
+h1 {
+    background-color: #fff;
+    color: black;
+    width: 230px;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 15px;
+}
+
+.section1 {
+   background-image: url(./Bacround-Image.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 594px;
+}
+
+.box1-mini1 {
+    background-color: red;
+    width: 180px;
+    height: 180px; 
+    position: absolute;
+    z-index: 2;
+    top: 280px;
+    left: 130px;
+     
+}
+
+.box1-mini2 {
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: 1;
+    top: 370px;
+    right: 1230px;
+}
+
+.box2-mini1 {
+    background-color: red;
+    width: 400px;
+    height: 180px;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 2;
+}
+
+.box2-mini2 {
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: 1;
+    left: 640px;
+    top: 370px;
+
+
+}
+
+.box3-mini1 {
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: 2;
+    top: 280px;
+    left: 1130px;
+}
+
+.box3-mini2 {
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    margin-top: 220px;
+    margin-left: 530px;
+    z-index: 1;
+
+}
+
+.father-box {
+    display: flex;
+    gap: 300px;
+    justify-content: center
+}
+
+
+p {
+    padding: 70px;
+}
+
+span {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+}
+
+.span3 {
+    position: absolute;
+    left: 1250px;
+    top: 515px;
+}
+
+
+.BOX1 {
+    width: 338px;
+    height: 280px;
+    background-color: brown;
+}
+
+.BOX2 {
+    width: 338px;
+    height: 280px;
+    background-color: brown;
+}
+
+.BOX3 {
+    width: 338px;
+    height: 280px;
+    background-color: brown;
+}
+
+.DIV {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    position: absolute;
+    top: 900px;
+    left: 100px;
+}
+
+.h1-section2 {
+    position: absolute;
+    top: 800px;
+}
+
+.fouter {
+    position: absolute;
+    top: 1300px;
+    display: flex;
+    left: 110px;
+}
